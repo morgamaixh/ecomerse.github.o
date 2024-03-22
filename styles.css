@@ -384,7 +384,7 @@
 
 
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 980px) {
     .shop-items {
         display: flex;
         flex-direction: column;
