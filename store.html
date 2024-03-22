@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>M&M Stores</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js"></script>
+    <script src="stor.js"></script>
+</head>
+
+<body>
+
+
+    <div class="nav-bar">
+
+        <div class="toggle-Button" id="toggleButton">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Our site</a> </li>
+            <li><a href="#">New Arivals</a> </li>
+            <li><a href="#">Contact</a> </li>
+            <li><a href="#">Blog</a> </li>
+        </ul>
+    </div>
+    </div>
+
+
+
+
+    <h2 class="section-header">Welcome to our stores get your favorte item at a discounted offer of 20%!!</h2>
+    <div class="main">
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Sneakers</span>
+
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Air force</span>
+                <img class="shop-item-image" src="C:\my projects\images\shoe1 (26).jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">flats</span>
+                <img class="shop-item-image" src="C:\my projects\images\shoe1 (13).jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$9.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">J-4</span>
+                <img class="shop-item-image" src="C:\my projects\images\shoe1 (2).png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="card">
+            <h2 class="section-header" id="cola">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column" id="cola">Item</span>
+                <span class="cart-price cart-header cart-column" id="cola">Price</span>
+                <span class="cart-quantity cart-header cart-column" id="cola">Quantity</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title" id="cola">Total</strong>
+                <span class="cart-total-price" id="cola">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </div>
+    <footer class="main-footer">
+        <div class="cont main-footer-container">
+            <h3 class="band-name">M&M Stores</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com" target="_blank">
+                        <img src="Images/YouTube Logo.png">
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="Images/Facebook Logo.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        const toggleBtn = document.getElementById('toggleButton');
+        const navLinks = document.getElementById('navLinks');
+        toggleButton.style.marginLeft = "90%"
+
+
+
+        toggleBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+    </script>
+
+
+</body>
+
+</html>
