@@ -1,4 +1,4 @@
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 768px){
     .shop-items {
         display: flex;
         flex-direction: column;
